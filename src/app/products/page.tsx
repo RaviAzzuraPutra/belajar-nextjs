@@ -1,6 +1,6 @@
 export default function ProductList() {
     return (
-        <div>
+        <div className="text-4xl">
             <h1>Product List</h1>
             <ul>
                 <li>
