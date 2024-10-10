@@ -13,14 +13,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header className="text-yellow-600 bg-pink-300">
+        <header className="text-yellow-300 bg-pink-500 mb-5 text-2xl text-center">
           <p>
             日本でプログラマーになれるといいですね
           </p>
         </header>
         {children}
         <footer>
-          <p className="bg-green-200 text-black">
+          <p className="bg-green-200 text-black mt-5 text-2xl text-center">
             夢 を 諦めないで
           </p>
         </footer>
