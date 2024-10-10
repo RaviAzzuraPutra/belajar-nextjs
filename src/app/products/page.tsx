@@ -13,7 +13,7 @@ export default function ProductList() {
                     <Link href="products/4">四 (し, shi / よん, yon)</Link>
                 </li>
                 <li>
-                    <Link href="products/5">五 (ご, go)</Link>
+                    <Link href="products/5" replace>五 (ご, go)</Link>
                 </li>
                 <li>
                     <Link href={`products/${productid}`}>{productid}</Link>
